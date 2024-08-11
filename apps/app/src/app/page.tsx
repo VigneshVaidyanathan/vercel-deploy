@@ -11,9 +11,13 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome app 👋
+              Welcome app 👋 New changes are easy to deploy.
             </h1>
           </div>
+
+          <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVigneshVaidyanathan%2Fvercel-deploy&build-command=npx%20nx%20run%20app:build&output-directory=apps/app/.next">
+            <img src="https://vercel.com/button" alt="Deploy with Vercel" />
+          </a>
 
           <div id="hero" className="rounded">
             <div className="text-container">
